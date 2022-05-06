@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #200C65 0%, #3C43BC 100%);
 }
 
 .text-color {
@@ -592,8 +592,8 @@ header .go-back i {
     font-size: 2.5rem;
     font-weight: 400;
 }
-
-@-webkit-keyframes rainbow {
+/*如果想去掉banner图的颜色渐变效果，请将以下的css属性注释掉或者删除掉即可*/
+/*@-webkit-keyframes rainbow {
 
     0%,
     100% {
@@ -683,7 +683,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
+}*/
 
 .index-card {
     margin-top: -10px;
